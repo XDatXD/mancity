@@ -56,6 +56,10 @@ html{
 }
 /*main*/
 
+#main{
+	overflow: hidden;
+}
+
 #header{
 	position: fixed;
 	left: 0;
@@ -172,9 +176,11 @@ html{
 /*  */
 #content .content-section{
 	width: 1000px;
+	max-width: 100%;
 	padding: 64px 0 112px;
 	margin-left: auto;
 	margin-right: auto;
+	
 }
 
 #content .section-heading{
@@ -976,14 +982,35 @@ small{
 	color: white;
 	background: linear-gradient(to right, black,black ,#2E0062 ,black, black);
 }
-.author{
-	margin-top: 130px;
-	margin-left: 583px;
-	margin-bottom: 80px;
-}
+
 
 .author a{
 	color: #000;
 	font-style: italic;
 	opacity: 0.8;
+}
+
+
+/* PC */
+@media(min-width: 1024px)
+{
+	.author{
+		margin-top: 130px;
+		margin-left: 583px;
+		margin-bottom: 80px;
+	}
+}
+
+/* Tablet */
+@media(min-width: 740px) and (max-width=1023px){
+	.author{
+		margin-top: 130px;
+		margin-left: 295px;
+		margin-bottom: 80px;
+	}
+}
+
+/* Mobile */
+@media(max-width: 739px){
+
 }
