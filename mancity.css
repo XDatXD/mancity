@@ -76,7 +76,6 @@ html{
 
 #nav .cnav{
 	text-decoration: none;
-	color: inherit;
 	top: 7.5px;
 }
 
@@ -134,7 +133,7 @@ html{
 	position: absolute;
 	top: 100%;
 	background-color: #fff;
-	box-shadow: 0 0 10px #AED6F1;
+	box-shadow: 0 0 10px #5fbfff;
 	min-width: 145px;
 }
 
@@ -145,7 +144,7 @@ html{
 }
 
 #nav .nav-arrow-down{
-	font-size: 10px;
+	font-size: 20px;
 }
 
 #header .search-btn{
